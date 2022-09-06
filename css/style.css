@@ -13,7 +13,7 @@ img {
 body {
   color: #444;
   font-size: 1.6rem;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Gebtium Book Basic', serif;
 }
 p {
   margin-bottom: .67em;
@@ -27,7 +27,12 @@ footer {
   color: #D0D0D0;
 }
 /*-- Main Menu Styles--*/
+nav{
+  display: flex;
+}
 nav ul {
+  display: flex;
+  justify-content: space-between;
   list-style: none;
   padding: 1em;
 }
@@ -97,3 +102,4 @@ a.button:hover, a.button:active {
   header {width: 96%;}
   article {width: 96%;}
 }
+
