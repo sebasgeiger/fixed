@@ -11,47 +11,49 @@ img {
 	height: auto;
 }
 body {
-  color: #444;
+  color: rgb(3, 3, 3);
   font-size: 1.6rem;
   font-family: 'Gebtium Book Basic', serif;
+  background-color: rgb(227, 224, 224);
 }
 p {
   margin-bottom: .67em;
 }
 nav, footer {
-  background-color: #444;
+  background-color: rgb(31, 6, 255);
 }
 footer {
   text-align: center;
   padding: 1em 0 .3em 0;
-  color: #D0D0D0;
+  color:  rgb(6, 180, 255);
 }
 /*-- Main Menu Styles--*/
-nav{
-  display: flex;
-}
 nav ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
   padding: 1em;
+  margin: 0;
 }
 nav a:link, nav a:visited {
-  color: #D0D0D0;
+  color: rgb(6, 180, 255);
   text-decoration: none;
 }
 nav a:hover, nav a:active  {
-  color: #F0F0F0;
+  color: rgb(6, 180, 255);
   text-decoration: underline;
 }
 nav a.active {
-  color: #F0F0F0;
+  color: rgb(6, 180, 255);
 }
 /*-- Hero Unit Styles--*/
 header {
   width: 510px;
   margin-top: 2em;
   margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(31, 6, 255);
 }
 header img {
   width: 100%;
@@ -60,42 +62,60 @@ header img {
 header h1 {
   margin: 0 auto;
   padding: 0 auto;
+  text-align: center;
+  color: rgb(6, 180, 255);
 }
 .small {
   margin-top: 1em;
+  font-weight: 900;
+  font-family: 'Lato', 'sans-serif';
+  font-size: large;
+  text-transform:uppercase;
 }
 /*-- Article Styles--*/
 article {
   width: 768px;
   font-size: 18px;
   line-height: 1.3;
+  margin-left: auto;
+  margin-right: auto;
+}
+article::first-letter {
+  float: left;
+  font-size: 50px;
+  margin: 0 .1em 0 0;
+  line-height: 0.85;
 }
 article figure {
   width: 39%;
   margin: 0 0 1.25em 1.25em;
+  float: right;
 }
 article figcaption {
-  font-size: inherit;
+  font-size: smaller;
+  font-weight:lighter;
+  font-family:'Lato', sans-serif;
 }
 .pagination {
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
   width: 96%;
 }
 a.button {
-  border: 2px solid #888;
+  border: 4px solid rgb(6, 180, 255);
   padding: .4em 1em .4em 1em;
   text-decoration: none;
-  color: #888;
+  color: rgb(31, 6, 255);
   border-radius: 200px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 80%;
 }
 a.button:hover, a.button:active {
-  border: 1px solid #444;
+  border: 1px solid rgb(31, 6, 255);
   text-decoration: none;
-  color: #222;
+  color:  rgb(6, 168, 255);
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
