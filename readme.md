@@ -16,7 +16,7 @@ This file contains a list of all the tasks that remain, in basically the same or
 ~~+ One image still needs to be added. Inside the article element, there's a figure without an image. Inside the figure element, add an image element that links to the dodo.jpg file inside the /img folder. Don't forget to use the alt attribute and make sure the file path is correct. Again, you can use the browser's inspector to check.~~
 
 ## In /css/style.css
-~~+ Change the default font on the body from Arial to 'Gentium Book Basic' with a fallback to serif, so it will be inherited by the rest of the elements. ~~
+~~+ Change the default font on the body from Arial to 'Gentium Book Basic' with a fallback to serif, so it will be inherited by the rest of the elements.~~
 
 ~~+ Use the display property to set the display of the nav element to "flex" to lay out the main menu in a horizontal row, and use the justify-content property to distribute the links with space-between.~~
 
